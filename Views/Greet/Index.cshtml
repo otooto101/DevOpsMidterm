@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Greet Me";
+}
+
+<h2>Enter your name</h2>
+
+<form method="post" asp-action="Greet">
+    <input type="text" name="name" placeholder="Your name" required />
+    <button type="submit">Greet Me</button>
+</form>
